@@ -1,0 +1,13 @@
+/* About Page */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.about__body {
+    margin: 1rem;
+    text-align: center;
+}
+

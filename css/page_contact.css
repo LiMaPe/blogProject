@@ -1,0 +1,23 @@
+/* Contact Page */
+
+.map {
+    grid-area: bps;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map__image {
+    width: 50%;
+    height: auto;
+}
+
+.map__header {
+    margin-top: 1.3rem;
+    text-align: center;
+}
+
+.map__body {
+    margin: 0.8rem;
+    text-align: center;
+}

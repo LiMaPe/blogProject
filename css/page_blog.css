@@ -1,0 +1,46 @@
+
+/* Blogpost Pages */
+
+.blogpost {
+    grid-area: bps;
+    width: 80%;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogpost__image {
+    filter: grayscale(60%);
+    width: 60%;
+    Height: auto;
+    border-radius: 0.5rem;
+    align-self: center;
+    margin-bottom: 0.5rem;
+}
+
+.blogpost__caption {
+    align-self: center;
+    color:#3b3a3a;
+}
+
+.blogpost__body {
+    margin: 0.5rem;
+    text-align: left;
+}
+
+.blogpost__list {
+    padding-left: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.blogpost__button-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.blogpost__qoute {
+    padding-left: 3rem;
+    color: rosybrown;
+}
