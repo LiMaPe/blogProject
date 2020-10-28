@@ -72,7 +72,7 @@ The part that required the most thought and styling is the blog post card galler
 
 The page layout is created with Grid. As you can see I use both nested Flexbox and Grid in the page, my take on when to use flexbox and when to use Grid is as follows.
 
-I use Flexbox to make the content flow. Since Flexbox is a single dimensional layout, it is possible to make the content flow in column or rows, but not both. This is where Grid come in. I use to place the content, for example Grid is great for the main page layout, I then nest Flexbox or Grid inside the main Grid depending on what content is going in that Grid area.  
+I use Flexbox to make the content flow. Since Flexbox is a single dimensional layout, it is possible to make the content flow in column or rows, but not both. This is where Grid come in, it places the content in two dimensions i.e. both rows and columns. I therefor use Grid to place the content, for example Grid is great for the main page layout, I then nest Flexbox or Grid inside the main Grid depending on what content is going in that Grid area.  
 
 
 <em>Mobile First</em>
@@ -140,10 +140,6 @@ The text is wrapped in a flex container. The flex-direction is set to column mak
 Button
 
 I want to stretch the button so that it takes up the full width of the card, this is done by setting the width to 100 %. 
-
-<b>File structure</b>
-
-I originally set up a separate CSS file corresponding to each HTML file, but since I was able to reuse most of the main page CSS on each page I decided to refactor and use only one CSS file. The About page for example is only nine lines of unique CSS. This way I don´t have to repeat the code for every page. 
 
 
 
