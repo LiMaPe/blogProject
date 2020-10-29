@@ -120,8 +120,6 @@ For a medium screen I wanted two column and two rows of cards. I set the flex pr
 
 The flex shrink 1 allows the item to shrink to its minimum when there is not enough space. The flex grow 1 will allow the item to grow if there is extra space. The combination makes the cards fully flexible so that they absorb any extra space along the main axis or shrink when needed. 
 
-I choose to set the overflow property to scroll, this will make the text-content available but might be a little distracting. Other options I considered are hide the overflow, add “…“ to the end and to fade out the last line.  Since the amount of text vary between different blog-post card I choose to set the height property to make them even and then deal with the overflow. A different approach would be to target the flexbox properties instead, an nice example I found is here: *https://mono.software/2020/07/29/equal-height-cards-with-flexbox/*
-
 *Large screen and Extra-large screen*
 
 For larger screens I choose a single row of four cards. This is done by adjusting the flexbasis, in this case 20 % is adequate. Large and Extra-large are similar but with small tweeks to the padding and margins. 
